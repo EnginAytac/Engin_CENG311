@@ -9,6 +9,7 @@ window.onload = function () {
     $("display_results").onclick = displayResults;
     $("display_scores").onclick = displayScores;
     $("add").onclick = addScore;
+    $("name").focus();
 };
 
 function displayResults() {
@@ -71,5 +72,6 @@ function addScore() {
 
     $("name").value = "";
     $("score").value = "";
+    $("name").focus();
 }
 
